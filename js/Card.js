@@ -1,4 +1,4 @@
-function Card(id, name) {
+	function Card(id, name) {
 	var self = this;
 
 	this.id = id;

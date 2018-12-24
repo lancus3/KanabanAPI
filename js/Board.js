@@ -15,7 +15,7 @@ document.querySelector('#board .create-column').addEventListener('click', functi
 
     fetch(baseUrl + '/column', {
         method: 'POST',
-        headers: myHeaders,
+        headers: myHeaders, 
         body: data,
     })
         .then(function (resp) {
